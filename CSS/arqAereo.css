@@ -1,0 +1,119 @@
+.box{
+    width: 290px;
+    height: 160px;
+    border: 8px solid #1f86b6;
+    padding: 4px;
+    margin: 50px;
+    position:relative;
+    object-position: right;
+     }
+
+
+     .dirimage {
+        width: 90px;
+        height: 90px;
+        margin-left: 630px;
+        padding: 0px;
+        position: relative;
+        align-items: center;
+        left: -8px;
+        }
+
+.TextBox1{
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+text-align: left;
+position: relative;
+left: 130px;
+color: darkkhaki;
+background-color: black;
+border-radius: 5px;
+padding: 0px;
+margin: 0px;
+}
+    
+.TextBox2{
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+text-align: center;
+left: 0px;
+color: darkkhaki;
+background-color: black;
+border-radius: 5px;
+
+}
+
+.galapagos{
+    width: 790px;
+    height: 400px;
+    border: 8px solid #c3dfec;
+    padding: 0px;
+    margin: 0px;
+    position: relative ;
+    left: 230px;
+    border-radius: 100px; }
+
+
+.textEquador{
+text-align: center;
+background-image: url(https://www.omnieventos.com/wp-content/uploads/2019/07/ilhas-galapagos-omni-eventos-1280x640.jpg);
+border-radius: 20px;
+color: darkslateblue; 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.textEscocia{
+text-align: center;
+background-image: url(https://www.visitbritain.com/sites/default/files/styles/wysiwyg_image/public/consumer/paragraphs-bundles/image-gallery-with-text/vb34176027_edinburgh_2.jpg?itok=3SWwvGYl);
+border-radius: 20px;
+color: rgb(22, 247, 235); 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.textItalia{
+text-align: center;
+background-image: url(https://coisadeitaliano.com.br/wp-content/uploads/2017/06/italy-1460295_1920_mini-1200x766.jpg);
+border-radius: 20px;
+color: darkslateblue; 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        }
+
+
+
+.container {
+width: 80%;
+margin: 20px auto;
+background-color: #fffbeb;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+h1 {
+font-size: 24px;
+}
+p {
+font-size: 18px;
+}
+
+
+
+table {
+width: 80%;
+border-collapse: collapse;
+margin: 20px auto;
+}
+th, td {
+padding: 10px;
+text-align: center;
+}
+th {
+background-color: #333;
+color: #fff;
+}
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+

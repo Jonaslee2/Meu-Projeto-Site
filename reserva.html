@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Reserva</title>
+
+ <!-- icons -->
+        
+ <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/7601/7601946.png" type="image/x-icon/">   
+ <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/7601/7601946.png"/>
+
+ <!-- /icons -->
+ 
+
+    <link rel="stylesheet" href="CSS/reserva.css">
+
+    <script src="Javascript/reserva.js"></script>
+  
+
+</head>
+
+<body>
+
+    <div>
+        <h1 style="background-image: url(https://media0.giphy.com/media/1TpGKApbHmkZa/200w.webp?cid=ecf05e47qbril15kqpevi73pqm4l4hdw3118g2g363jpqq9m&ep=v1_gifs_related&rid=200w.webp&ct=g );">Formulário de Reserva</h1>
+    </div>
+
+    <div class="container">
+
+        <fieldset>
+            <form name="freservas">
+                <h3>Informações Pessoais</h3>
+                <div id="informacoesPessoais">
+
+                    <label for="nome">Nome......:
+                        <input type="text" id="nome" name="nome" placeholder="Nome Completo" required> </label><br>
+
+                    <label for="cpf">CPF.........:
+                        <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" required></label> <br>
+
+                    <label for="rg">RG..........:
+                        <input type="text" id="rg" name="rg" placeholder="00.000.000-00" required> </label> <br>
+
+                    <label for="passaporte">Passaporte:
+                        <input type="text" id="passaporte" name="passaporte" placeholder="BR000000000" required>
+                    </label> <br>
+
+
+                    <label for="nascimento"> Data de Nascimento:
+                        <input type="date" id="nascimento" name="nascimento" required></label><br>
+
+                    <label for="nacionalidade">Nacionalidade.........:
+                        <select size="1" id="nacionalidade" name="nacionalidade" required>
+
+                            <option value="Brasileiro(a)">Brasileiro(a)</option>
+                            <option value="Italiano(a)">Italiano(a)</option>
+                            <option value="Americano(a)">Americano(a)</option>
+                            <option value="Outros">Outros(identificar depois do cadastro a nacionalidade)</option>
+                        </select>
+
+                    </label>
+                </div>
+
+
+                <div id="detalhesReserva">
+                    <h3>Detalhes da Reserva</h3>
+
+                    <table>
+                        <tr>
+                            <label>Destino.......:
+                                <select name="destino" id="destino" size="1">
+
+                                    <option value="Minas Gerais-Ouro Preto">Minas Gerais-Ouro Preto</option>
+                                    <option value="Rio Grande do Sul-Bento gonçalves">Rio Grande do Sul-Bento gonçalves</option>
+                                    <option value="Mato Grosso do Sul-Dourados">Mato Grosso do Sul-Dourados</option>
+                                    <option value="Equador-Galápagos">Equador-Galápagos</option>
+                                    <option value="Escócia-Edimburgo">Escócia-Edimburgo</option>
+                                    <option value="Itália-Veneza">Itália-Veneza</option>
+                                </select>
+
+
+                                <label id="roteiro">Roteiro...:<input type="radio" name="rdoroteiro"
+                                        value="rodoviário" />Rodoviário
+                                    <input type="radio" name="rdoroteiro" value="aereo" />Aéreo</label>
+                                <td><br>
+
+
+                                    <label>Data de Saída: <input type="date" id="dataSaida" name="datasaida"
+                                            required></label>
+
+                                <td>
+
+
+                                    <label style="margin-bottom: -19px;  margin-left: 124px;">Companhia....:
+                                        <select name="Companhia" size="1">
+                                            <option value="GOL">GOL</option>
+                                            <option value="PASSAREDO">PASSAREDO</option>
+                                            <option value="LATAM">LATAM</option>
+                                            <option value="AZUL"> AZUL</option>
+                                        </select>
+                                    </label>
+
+                    </table> <br>
+                    <button type="submit" value="reservar" onclick="reservar()">Reserva</button>
+                    <button type="button" onclick="voltar()">Voltar</button>
+                </div>
+            </form>
+
+        </br> <br> <br>
+        
+        <div id="reservas" style="display:flexbox; background-color: rgb(49, 201, 178);">
+            <h2 style="text-decoration: underline; text-align: center;"> Reserva Confirmada:</h2>
+            <h3> 1°Nome - 2°CPF - 3°Rg - 4°Passaporte - 5°Nascimento - 6°Nacionalidade - 7°Destino - 8°Roteiro - 9°Data de saída - 10°Companhia</h3>
+            <h3 id="saida"></h3>
+
+        </fieldset>
+    </div>
+        <div><img src="assets/forms-animate.svg" class="imagem"></div>
+
+</body>
+
+</html>

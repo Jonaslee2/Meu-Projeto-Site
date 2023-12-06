@@ -1,0 +1,77 @@
+body {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F003%2F334%2F919%2Flarge_2x%2Fdesktop-source-code-and-wallpaper-by-coding-and-programming-free-photo.jpg&f=1&nofb=1&ipt=272bd4a80ee81f7e260cff1e1a55ff52ee8d2ed12467d2254b6f3d8abdd0f434&ipo=images")
+}
+
+
+.container {
+    width: 80%;
+    margin: 10px auto;
+    opacity: 90%;
+    background-color: #2f2841;
+    padding: 12px;
+    border-radius: 10px;
+    /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);*/
+    box-shadow: 0px 10px 50px rgb(82, 121, 248)
+}
+
+#h3 {
+    text-align: center;
+    color: rgb(0, 55, 173);
+    background-color: #9c8bcc;
+    margin-right: 400px;
+    margin-left: 400px;
+    border-radius: 10px;
+
+}
+
+#h31 {
+    text-align: center;
+    color: rgb(2, 3, 7);
+    margin-right: 400px;
+    margin-left: 400px;
+    border-radius: 10px;
+    background: var(--color-gradient);
+    --color-purple-50: rgb(188, 204, 255);
+    --color-purple-100: rgb(15, 144, 161);
+    --color-purple-200: rgb(5, 192, 176);
+    --color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200));
+
+}
+
+.div2 {
+    text-align: center;
+    margin-left: 900px;
+
+    border-radius: 10px;
+    background: var(--color-gradient);
+    --color-purple-50: rgb(188, 255, 203);
+    --color-purple-100: rgb(120, 255, 165);
+    --color-purple-200: rgb(5, 192, 176);
+    --color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200));
+
+}
+
+.div {
+
+    text-align: center;
+    margin-right: 900px;
+    border-radius: 20px;
+    background: var(--color-gradient);
+    --color-purple-50: rgb(188, 255, 203);
+    --color-purple-100: rgb(120, 255, 165);
+    --color-purple-200: rgb(5, 192, 176);
+    --color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200));
+
+}
+
+
+
+.dirimage {
+width: 90px;
+height: 90px;
+margin-left: 630px;
+padding: 0px;
+position: relative;
+align-items: center;
+left: -8px;
+}
