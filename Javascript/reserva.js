@@ -35,7 +35,6 @@ function reservar() {
     window.alert('Reservado com Sucesso!');
     mostrar_lista();
     
-
     setTimeout(function() {
 window.location.href = "confirmacao.html";
 }, 3000);
